@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "256172051944CCC000BB7C75"
                BuildableName = "PrimerClase"
-               BlueprintName = "PrimerClase"
-               ReferencedContainer = "container:PrimerClase.xcodeproj">
+               BlueprintName = "PrimeraClase"
+               ReferencedContainer = "container:PrimeraClase.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "256172051944CCC000BB7C75"
             BuildableName = "PrimerClase"
-            BlueprintName = "PrimerClase"
-            ReferencedContainer = "container:PrimerClase.xcodeproj">
+            BlueprintName = "PrimeraClase"
+            ReferencedContainer = "container:PrimeraClase.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "256172051944CCC000BB7C75"
             BuildableName = "PrimerClase"
-            BlueprintName = "PrimerClase"
-            ReferencedContainer = "container:PrimerClase.xcodeproj">
+            BlueprintName = "PrimeraClase"
+            ReferencedContainer = "container:PrimeraClase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "256172051944CCC000BB7C75"
             BuildableName = "PrimerClase"
-            BlueprintName = "PrimerClase"
-            ReferencedContainer = "container:PrimerClase.xcodeproj">
+            BlueprintName = "PrimeraClase"
+            ReferencedContainer = "container:PrimeraClase.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -10,6 +10,7 @@
 		2561720A1944CCC000BB7C75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256172091944CCC000BB7C75 /* Foundation.framework */; };
 		2561720D1944CCC000BB7C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2561720C1944CCC000BB7C75 /* main.m */; };
 		256172111944CCC000BB7C75 /* PrimerClase.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 256172101944CCC000BB7C75 /* PrimerClase.1 */; };
+		256172191944D28400BB7C75 /* myStarWarsCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 256172181944D28400BB7C75 /* myStarWarsCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		256172061944CCC000BB7C75 /* PrimerClase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrimerClase; sourceTree = BUILT_PRODUCTS_DIR; };
+		256172061944CCC000BB7C75 /* PrimeraClase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrimeraClase; sourceTree = BUILT_PRODUCTS_DIR; };
 		256172091944CCC000BB7C75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2561720C1944CCC000BB7C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2561720F1944CCC000BB7C75 /* PrimerClase-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrimerClase-Prefix.pch"; sourceTree = "<group>"; };
 		256172101944CCC000BB7C75 /* PrimerClase.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PrimerClase.1; sourceTree = "<group>"; };
+		256172171944D28400BB7C75 /* myStarWarsCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myStarWarsCharacter.h; path = Classes/myStarWarsCharacter.h; sourceTree = "<group>"; };
+		256172181944D28400BB7C75 /* myStarWarsCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myStarWarsCharacter.m; path = Classes/myStarWarsCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +51,7 @@
 		256171FD1944CCC000BB7C75 = {
 			isa = PBXGroup;
 			children = (
-				2561720B1944CCC000BB7C75 /* PrimerClase */,
+				2561720B1944CCC000BB7C75 /* PrimeraClase */,
 				256172081944CCC000BB7C75 /* Frameworks */,
 				256172071944CCC000BB7C75 /* Products */,
 			);
@@ -57,7 +60,7 @@
 		256172071944CCC000BB7C75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				256172061944CCC000BB7C75 /* PrimerClase */,
+				256172061944CCC000BB7C75 /* PrimeraClase */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,13 +73,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2561720B1944CCC000BB7C75 /* PrimerClase */ = {
+		2561720B1944CCC000BB7C75 /* PrimeraClase */ = {
 			isa = PBXGroup;
 			children = (
 				2561720C1944CCC000BB7C75 /* main.m */,
+				2561721A1944D2CF00BB7C75 /* Models */,
 				256172101944CCC000BB7C75 /* PrimerClase.1 */,
 				2561720E1944CCC000BB7C75 /* Supporting Files */,
 			);
+			name = PrimeraClase;
 			path = PrimerClase;
 			sourceTree = "<group>";
 		};
@@ -88,12 +93,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2561721A1944D2CF00BB7C75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				256172171944D28400BB7C75 /* myStarWarsCharacter.h */,
+				256172181944D28400BB7C75 /* myStarWarsCharacter.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		256172051944CCC000BB7C75 /* PrimerClase */ = {
+		256172051944CCC000BB7C75 /* PrimeraClase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 256172141944CCC000BB7C75 /* Build configuration list for PBXNativeTarget "PrimerClase" */;
+			buildConfigurationList = 256172141944CCC000BB7C75 /* Build configuration list for PBXNativeTarget "PrimeraClase" */;
 			buildPhases = (
 				256172021944CCC000BB7C75 /* Sources */,
 				256172031944CCC000BB7C75 /* Frameworks */,
@@ -103,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = PrimerClase;
+			name = PrimeraClase;
 			productName = PrimerClase;
-			productReference = 256172061944CCC000BB7C75 /* PrimerClase */;
+			productReference = 256172061944CCC000BB7C75 /* PrimeraClase */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +131,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = cazofeifacr;
 			};
-			buildConfigurationList = 256172011944CCC000BB7C75 /* Build configuration list for PBXProject "PrimerClase" */;
+			buildConfigurationList = 256172011944CCC000BB7C75 /* Build configuration list for PBXProject "PrimeraClase" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				256172051944CCC000BB7C75 /* PrimerClase */,
+				256172051944CCC000BB7C75 /* PrimeraClase */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256172191944D28400BB7C75 /* myStarWarsCharacter.m in Sources */,
 				2561720D1944CCC000BB7C75 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,8 +235,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PrimerClase/PrimerClase-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PrimerClase/PrimeraClase-Prefix.pch";
+				PRODUCT_NAME = PrimeraClase;
 			};
 			name = Debug;
 		};
@@ -229,15 +244,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "PrimerClase/PrimerClase-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "PrimerClase/PrimeraClase-Prefix.pch";
+				PRODUCT_NAME = PrimeraClase;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		256172011944CCC000BB7C75 /* Build configuration list for PBXProject "PrimerClase" */ = {
+		256172011944CCC000BB7C75 /* Build configuration list for PBXProject "PrimeraClase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				256172121944CCC000BB7C75 /* Debug */,
@@ -246,7 +261,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		256172141944CCC000BB7C75 /* Build configuration list for PBXNativeTarget "PrimerClase" */ = {
+		256172141944CCC000BB7C75 /* Build configuration list for PBXNativeTarget "PrimeraClase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				256172151944CCC000BB7C75 /* Debug */,
